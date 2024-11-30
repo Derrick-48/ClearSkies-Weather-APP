@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "WeatherCheck",
-    "slug": "WeatherCheck",
+    "name": "ClearSkies",
+    "slug": "ClearSkies",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,6 +13,11 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "extra": {
+      "eas": {
+        "projectId": "f3871391-b8f0-480a-8d37-9bace64b372e"
+      }
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -20,7 +25,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.programmer48.ClearSkies"
     },
     "web": {
       "bundler": "metro",
